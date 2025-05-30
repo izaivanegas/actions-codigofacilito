@@ -1,0 +1,13 @@
+name: "Deploy de codifo faciliro"
+
+on:
+  push:
+    branches:["main"]
+
+jobs:
+  deploys-codigofacilito:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hacemos pull del codfigo"
+      - run: echo "nueva linea"
+    
